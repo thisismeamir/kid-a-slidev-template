@@ -1,0 +1,234 @@
+.ktext {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* ==========================================================================
+   Body
+   ========================================================================== */
+
+.ktext--body-compact-01 {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.16px;
+}
+
+.ktext--body-compact-02 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: 0;
+}
+
+.ktext--body-short-01,
+.ktext--body-long-01 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.16px;
+}
+
+.ktext--body-short-02,
+.ktext--body-long-02 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+}
+
+
+/* ==========================================================================
+   Headings
+   ========================================================================== */
+
+.ktext--heading-01 {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+}
+
+.ktext--heading-02 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-weight: 600;
+}
+
+.ktext--heading-03 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+.ktext--heading-04 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+}
+
+.ktext--heading-05 {
+  font-size: 2.625rem;
+  line-height: 3.125rem;
+  font-weight: 300;
+}
+
+.ktext--heading-06 {
+  font-size: 2.625rem;
+  line-height: 3.125rem;
+  font-weight: 600;
+}
+
+
+/* ==========================================================================
+   Display
+   ========================================================================== */
+
+.ktext--display-01 {
+  font-size: 3.375rem;
+  line-height: 4rem;
+  font-weight: 300;
+}
+
+.ktext--display-02 {
+  font-size: 3.375rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+
+.ktext--display-03 {
+  font-size: 3.75rem;
+  line-height: 4.375rem;
+  font-weight: 300;
+  letter-spacing: -0.64px;
+}
+
+.ktext--display-04 {
+  font-size: 5.75rem;
+  line-height: 6.375rem;
+  font-weight: 300;
+  letter-spacing: -0.64px;
+}
+
+
+/* ==========================================================================
+   Paragraph
+   ========================================================================== */
+
+.ktext--paragraph-01 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: 300;
+}
+
+.ktext--paragraph-02 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+}
+
+
+/* ==========================================================================
+   Quotation
+   ========================================================================== */
+
+.ktext--quotation-01,
+.ktext--quotation-02 {
+  font-family: var(--font-serif);
+}
+
+.ktext--quotation-01 {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  font-weight: 400;
+}
+
+.ktext--quotation-02 {
+  font-size: 2.625rem;
+  line-height: 3.125rem;
+  font-weight: 300;
+}
+
+
+/* ==========================================================================
+   Code
+   ========================================================================== */
+
+.ktext--code-01,
+.ktext--code-02 {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+
+.ktext--code-01 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.ktext--code-02 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+
+/* ==========================================================================
+   Labels
+   ========================================================================== */
+
+.ktext--label-01,
+.ktext--label-02 {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+
+.ktext--label-01 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.ktext--label-02 {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+
+/* ==========================================================================
+   Supporting
+   ========================================================================== */
+
+.ktext--helper-text-01,
+.ktext--helper-text-02,
+.ktext--caption-01,
+.ktext--caption-02,
+.ktext--legal-01,
+.ktext--legal-02,
+.ktext--overline-01,
+.ktext--overline-02 {
+  font-family: var(--font-sans);
+  font-weight: 400;
+}
+
+.ktext--caption-01,
+.ktext--caption-02 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.ktext--helper-text-01,
+.ktext--helper-text-02 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.ktext--legal-01,
+.ktext--legal-02 {
+  font-size: 0.6875rem;
+  line-height: 0.875rem;
+}
+
+.ktext--overline-01,
+.ktext--overline-02 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+}

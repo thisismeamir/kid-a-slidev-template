@@ -1,0 +1,43 @@
+{
+  "name": "slidev-theme-kid-a",
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@dagrejs/dagre": "^3.1.1",
+    "@ibm/plex-math": "^1.1.0",
+    "@ibm/plex-mono": "^2.5.0",
+    "@ibm/plex-sans": "^1.1.0",
+    "@ibm/plex-serif": "^2.0.0",
+    "@slidev/types": "^53.0.0",
+    "@vue-flow/core": "^1.48.2",
+    "d3": "^7.9.0",
+    "markmap-lib": "^0.18.12",
+    "markmap-view": "^0.18.12"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^53.0.0"
+  },
+  "//": "Learn more: https://sli.dev/guide/write-theme.html",
+  "slidev": {
+    "colorSchema": "both",
+    "defaults": {
+      "fonts": {
+        "sans": "Nunito Sans",
+        "mono": "Fira Code"
+      }
+    }
+  }
+}

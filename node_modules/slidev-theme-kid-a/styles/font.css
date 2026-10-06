@@ -1,0 +1,282 @@
+/*
+ * IBM Plex Typography
+ *
+ * Font software:
+ *   IBM Plex Sans
+ *   IBM Plex Serif
+ *   IBM Plex Mono
+ *   IBM Plex Math
+ *
+ * All IBM Plex fonts are distributed under the SIL Open Font License 1.1.
+ *
+ * https://github.com/IBM/plex
+ */
+
+
+/* ==========================================================================
+   IBM Plex Sans
+   ========================================================================== */
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-Light.woff2")
+      format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-Regular.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-Medium.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-SemiBold.woff2")
+      format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-Bold.woff2")
+      format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* Italic */
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-LightItalic.woff2")
+      format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-Italic.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-MediumItalic.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-SemiBoldItalic.woff2")
+      format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src:
+    url("@ibm/plex-sans/fonts/complete/woff2/IBMPlexSans-BoldItalic.woff2")
+      format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/* ==========================================================================
+   IBM Plex Serif
+   ========================================================================== */
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src:
+    url("@ibm/plex-serif/fonts/complete/woff2/IBMPlexSerif-Regular.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src:
+    url("@ibm/plex-serif/fonts/complete/woff2/IBMPlexSerif-Italic.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src:
+    url("@ibm/plex-serif/fonts/complete/woff2/IBMPlexSerif-SemiBold.woff2")
+      format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src:
+    url("@ibm/plex-serif/fonts/complete/woff2/IBMPlexSerif-Bold.woff2")
+      format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src:
+    url("@ibm/plex-serif/fonts/complete/woff2/IBMPlexSerif-BoldItalic.woff2")
+      format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/* ==========================================================================
+   IBM Plex Mono
+   ========================================================================== */
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src:
+    url("@ibm/plex-mono/fonts/complete/woff2/IBMPlexMono-Light.woff2")
+      format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src:
+    url("@ibm/plex-mono/fonts/complete/woff2/IBMPlexMono-Regular.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src:
+    url("@ibm/plex-mono/fonts/complete/woff2/IBMPlexMono-Medium.woff2")
+      format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src:
+    url("@ibm/plex-mono/fonts/complete/woff2/IBMPlexMono-SemiBold.woff2")
+      format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src:
+    url("@ibm/plex-mono/fonts/complete/woff2/IBMPlexMono-Bold.woff2")
+      format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* ==========================================================================
+   IBM Plex Math
+   ========================================================================== */
+
+@font-face {
+  font-family: "IBM Plex Math";
+  src:
+    url("@ibm/plex-math/fonts/complete/woff2/IBMPlexMath-Regular.woff2")
+      format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* ==========================================================================
+   Typography tokens
+   ========================================================================== */
+
+:root {
+  --font-sans: "IBM Plex Sans", sans-serif;
+  --font-serif: "IBM Plex Serif", serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-math: "IBM Plex Math", "IBM Plex Serif", serif;
+}
+
+
+/* ==========================================================================
+   Base typography
+   ========================================================================== */
+
+.slidev-layout {
+  font-family: var(--font-sans);
+}
+
+.slidev-layout code,
+.slidev-layout pre {
+  font-family: var(--font-mono);
+}
+
+
+/* ==========================================================================
+   Mathematical typography
+   ========================================================================== */
+
+.slidev-layout .katex {
+  font-family: var(--font-math);
+  font-size: 12pt
+}

@@ -1,0 +1,290 @@
+/*
+ * Typography
+ *
+ * IBM Design Language-inspired type system.
+ * IBM Plex is used as the primary typographic family.
+ * KaTeX is used for mathematical typesetting with IBM Plex Math.
+ */
+
+:root {
+  /* -----------------------------------------------------------------------
+   * Font families
+   * ----------------------------------------------------------------------- */
+
+  --font-sans: "IBM Plex Sans", sans-serif;
+  --font-serif: "IBM Plex Serif", serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-condensed: "IBM Plex Sans Condensed", sans-serif;
+  --font-math: "IBM Plex Math", "IBM Plex Serif", serif;
+
+  /* -----------------------------------------------------------------------
+   * IBM Plex type scale
+   *
+   * Based on the IBM universal type scale.
+   * Values correspond to the Latin/Cyrillic/Greek/Hebrew scale.
+   * ----------------------------------------------------------------------- */
+
+  --text-xs: 0.75rem;       /* 12px */
+  --text-sm: 0.875rem;      /* 14px */
+  --text-md: 1rem;          /* 16px */
+  --text-lg: 1.125rem;      /* 18px */
+  --text-xl: 1.25rem;       /* 20px */
+  --text-2xl: 1.5rem;       /* 24px */
+  --text-3xl: 1.75rem;      /* 28px */
+  --text-4xl: 2rem;         /* 32px */
+  --text-5xl: 2.25rem;      /* 36px */
+  --text-6xl: 2.625rem;     /* 42px */
+  --text-7xl: 3rem;         /* 48px */
+  --text-8xl: 3.375rem;     /* 54px */
+  --text-9xl: 3.75rem;      /* 60px */
+  --text-10xl: 4.25rem;     /* 68px */
+  --text-11xl: 4.75rem;     /* 76px */
+  --text-12xl: 5.25rem;     /* 84px */
+  --text-13xl: 5.75rem;     /* 92px */
+
+  /* -----------------------------------------------------------------------
+   * Line heights
+   * ----------------------------------------------------------------------- */
+
+  --leading-xs: 1rem;       /* 12 / 16 */
+  --leading-sm: 1.125rem;   /* 14 / 18 */
+  --leading-md: 1.375rem;   /* 16 / 22 */
+  --leading-lg: 1.5rem;     /* 18 / 24 */
+  --leading-xl: 1.625rem;   /* 20 / 26 */
+  --leading-2xl: 1.75rem;   /* 24 / 28 */
+  --leading-3xl: 2.25rem;   /* 28 / 36 */
+  --leading-4xl: 2.5rem;    /* 32 / 40 */
+  --leading-5xl: 2.75rem;   /* 36 / 44 */
+  --leading-6xl: 3.125rem;  /* 42 / 50 */
+  --leading-7xl: 3.5rem;    /* 48 / 56 */
+  --leading-8xl: 4rem;      /* 54 / 64 */
+  --leading-9xl: 4.375rem;  /* 60 / 70 */
+  --leading-10xl: 4.875rem; /* 68 / 78 */
+  --leading-11xl: 5.375rem; /* 76 / 86 */
+  --leading-12xl: 5.875rem; /* 84 / 94 */
+  --leading-13xl: 6.375rem; /* 92 / 102 */
+
+  /* -----------------------------------------------------------------------
+   * Font weights
+   * ----------------------------------------------------------------------- */
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* -----------------------------------------------------------------------
+   * Tracking
+   *
+   * Plex is intentionally given room to breathe. Keep tracking conservative
+   * and use it primarily for display typography where necessary.
+   * ----------------------------------------------------------------------- */
+
+  --tracking-tight: -0.015em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.015em;
+}
+
+
+/* =========================================================================
+ * Base typography
+ * ========================================================================= */
+
+.slidev-layout {
+  font-family: var(--font-sans);
+  font-size: var(--text-md);
+  line-height: var(--leading-md);
+  font-weight: var(--weight-light);
+  letter-spacing: var(--tracking-normal);
+
+  text-align: left;
+}
+
+
+/* =========================================================================
+ * Headings
+ * ========================================================================= */
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3,
+.slidev-layout h4,
+.slidev-layout h5,
+.slidev-layout h6 {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-light);
+  letter-spacing: var(--tracking-tight);
+  text-align: left;
+}
+
+
+/* =========================================================================
+ * Display
+ * ========================================================================= */
+
+.slidev-layout h1 {
+  font-size: var(--text-7xl);
+  line-height: var(--leading-7xl);
+}
+
+.slidev-layout h2 {
+  font-size: var(--text-6xl);
+  line-height: var(--leading-6xl);
+}
+
+.slidev-layout h3 {
+  font-size: var(--text-5xl);
+  line-height: var(--leading-5xl);
+}
+
+.slidev-layout h4 {
+  font-size: var(--text-4xl);
+  line-height: var(--leading-4xl);
+}
+
+.slidev-layout h5 {
+  font-size: var(--text-3xl);
+  line-height: var(--leading-3xl);
+}
+
+.slidev-layout h6 {
+  font-size: var(--text-2xl);
+  line-height: var(--leading-2xl);
+}
+
+
+/* =========================================================================
+ * Body
+ * ========================================================================= */
+
+.slidev-layout p {
+  font-size: var(--text-md);
+  line-height: var(--leading-md);
+  font-weight: var(--weight-light);
+}
+
+.slidev-layout small {
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+}
+
+
+/* =========================================================================
+ * Strong / emphasis
+ * ========================================================================= */
+
+.slidev-layout strong,
+.slidev-layout b {
+  font-weight: var(--weight-semibold);
+}
+
+.slidev-layout em,
+.slidev-layout i {
+  font-style: italic;
+}
+
+
+/* =========================================================================
+ * Code
+ * ========================================================================= */
+
+.slidev-layout code,
+.slidev-layout pre,
+.slidev-layout kbd,
+.slidev-layout samp {
+  font-family: var(--font-mono);
+}
+
+.slidev-layout code {
+  font-size: 0.9em;
+}
+
+.slidev-layout pre {
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+}
+
+
+/* =========================================================================
+ * Mathematical typography
+ *
+ * KaTeX owns the internal mathematical layout. These declarations establish
+ * IBM Plex Math as the mathematical typeface wherever KaTeX exposes the
+ * relevant font family hooks.
+ * ========================================================================= */
+
+.slidev-layout .katex {
+  font-family: var(--font-math);
+}
+
+.slidev-layout .katex-display {
+  margin-block: 1em;
+}
+
+.slidev-layout .katex .mathnormal,
+.slidev-layout .katex .mathrm,
+.slidev-layout .katex .mathbf,
+.slidev-layout .katex .mathit,
+.slidev-layout .katex .mathsf,
+.slidev-layout .katex .mathtt {
+  font-family: var(--font-math);
+}
+
+
+/* =========================================================================
+ * Links
+ * ========================================================================= */
+
+.slidev-layout a {
+  font-weight: var(--weight-medium);
+}
+
+
+/* =========================================================================
+ * Lists
+ * ========================================================================= */
+
+.slidev-layout ul,
+.slidev-layout ol {
+  font-size: var(--text-md);
+  line-height: var(--leading-md);
+}
+
+.slidev-layout li + li {
+  margin-top: 0.5rem;
+}
+
+
+/* =========================================================================
+ * Utility typography
+ * ========================================================================= */
+
+.type-display {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-light);
+  letter-spacing: var(--tracking-tight);
+}
+
+.type-label {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+  font-weight: var(--weight-semibold);
+}
+
+.type-code {
+  font-family: var(--font-mono);
+}
+
+.type-math {
+  font-family: var(--font-math);
+}
+
+.type-condensed {
+  font-family: var(--font-condensed);
+}
+
+.plex-light {
+  font-weight: var(--weight-light);
+}

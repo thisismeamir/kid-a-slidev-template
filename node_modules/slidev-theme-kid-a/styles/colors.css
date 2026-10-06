@@ -1,0 +1,126 @@
+:root {
+/* Row 1: Slate / Neutral */
+  --slate-10:  #E8E8E8;
+  --slate-20:  #E0E0E0;
+  --slate-30:  #C6C6C6;
+  --slate-40:  #A8A8A8;
+  --slate-50:  #8D8D8D;
+  --slate-60:  #3C3C3C;
+  --slate-70:  #303030;
+  --slate-80:  #242424;
+  --slate-90:  #181818;
+  --slate-100: #0C0C0C;
+
+  /* Row 2: Purple / Violet */
+  --orion-10:  #E5E3FF;
+  --orion-20:  #CAC6FF;
+  --orion-30:  #B2ACFF;
+  --orion-40:  #948CFF;
+  --orion-50:  #7152FF;
+  --orion-60:  #6C22FF;
+  --orion-70:  #5412C0;
+  --orion-80:  #380C80;
+  --orion-90:  #240A4F;
+  --orion-100: #160434;
+
+  /* Row 3: Orion / Royal Blue */
+  --blue-10:  #617EFF;
+  --blue-20:  #4F6FFF;
+  --blue-30:  #4063FF;
+  --blue-40:  #2B52FF;
+  --blue-50:  #1741FF;
+  --blue-60:  #143AE0;
+  --blue-70:  #1131BF;
+  --blue-80:  #0B2180;
+  --blue-90:  #061040;
+  --blue-100: #030921;
+
+  /* Row 4: Sky / Blue */
+  --blue-10:  #E5F6FF;
+  --blue-20:  #BAE6FF;
+  --blue-30:  #82CFFF;
+  --blue-40:  #33B1FF;
+  --blue-50:  #1192E8;
+  --blue-60:  #0072C3;
+  --blue-70:  #00539A;
+  --blue-80:  #003A6D;
+  --blue-90:  #012749;
+  --blue-100: #061727;
+
+  /* Row 5: Cyan / Teal */
+  --cyan-10:  #D9FBFB;
+  --cyan-20:  #9EF0F0;
+  --cyan-30:  #3DDBD9;
+  --cyan-40:  #08BDBA;
+  --cyan-50:  #009D9A;
+  --cyan-60:  #007D79;
+  --cyan-70:  #005D5D;
+  --cyan-80:  #004144;
+  --cyan-90:  #022B30;
+  --cyan-100: #081A1C;
+
+  /* Row 6: Emerald / Green */
+  --emerald-10:  #DEFBE6;
+  --emerald-20:  #A7F0BA;
+  --emerald-30:  #6FDC8C;
+  --emerald-40:  #42BE65;
+  --emerald-50:  #24A148;
+  --emerald-60:  #198038;
+  --emerald-70:  #0E6027;
+  --emerald-80:  #044317;
+  --emerald-90:  #022D0D;
+  --emerald-100: #071908;
+
+  /* Row 7: Yellow / Amber */
+  --yellow-10:  #FCF4D6;
+  --yellow-20:  #FDDC69;
+  --yellow-30:  #F1C21B;
+  --yellow-40:  #D2A106;
+  --yellow-50:  #B28600;
+  --yellow-60:  #8E6A00;
+  --yellow-70:  #684E00;
+  --yellow-80:  #483700;
+  --yellow-90:  #302400;
+  --yellow-100: #1C1500;
+
+  /* Row 8: Orange */
+  --orange-10:  #FFF2E8;
+  --orange-20:  #FFD9BE;
+  --orange-30:  #FFB784;
+  --orange-40:  #FF832B;
+  --orange-50:  #EB6200;
+  --orange-60:  #BA4E00;
+  --orange-70:  #8A3800;
+  --orange-80:  #5E2900;
+  --orange-90:  #3E1A00;
+  --orange-100: #231000;
+
+  /* Row 9: Red */
+  --red-10:  #FFF1F1;
+  --red-20:  #FFD7D9;
+  --red-30:  #FFB3B8;
+  --red-40:  #FF8389;
+  --red-50:  #FA4D56;
+  --red-60:  #DA1E28;
+  --red-70:  #A2191F;
+  --red-80:  #700F14;
+  --red-90:  #520408;
+  --red-100: #2D0709;
+
+  /* Row 10: Pink / Magenta */
+  --pink-10:  #FFF0F7;
+  --pink-20:  #FFD6E8;
+  --pink-30:  #FFAFD2;
+  --pink-40:  #FF7EB6;
+  --pink-50:  #EE5396;
+  --pink-60:  #D02670;
+  --pink-70:  #9F1853;
+  --pink-80:  #740937;
+  --pink-90:  #510224;
+  --pink-100: #2A0A18;
+}
+
+
+.block {
+  background-color: #ffffff;
+}
